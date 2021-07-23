@@ -1,0 +1,2 @@
+mysql 연결할 때 에러 나면 
+setUrl (?뒤에 useSSL=false 붙히고 serverTimezone=UTC 붙히기)

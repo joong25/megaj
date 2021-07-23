@@ -1,0 +1,4 @@
+<input type="text" name=" ~ ">  => 텍스트 상자 생성
+<input type="password" name=" ~ "> => 가려지는 텍스트 상자 생성
+<input type="submit" name=" ~ "> => 폼 핸들러에게 폼을 제출하는 버튼
+<input type="radio" name이랑 value 설정해주기>

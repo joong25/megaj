@@ -1,0 +1,10 @@
+1. 웹브라우저에서 DispatcherServlet으로 요청 전송
+2. DispatcherServlet에서 요청 URL과 매칭되는 컨트롤러를 검색한다.
+   (spring bean을 통한 HandlerMapping)
+3. 처리 요청 (spring bean을 통한 HandlerAdapter)
+4. spring bean 컨트롤러 실행
+5. 컨트롤러에서 결과 리턴
+6. 컨트롤러 실행 결과를 ModelAndView로 변환해서 리턴
+7. 컨트롤러의 실행 결과를 보여줄 view 검색
+8. DispatcherServlet에서 view로 응답 생성 요청
+9. view에서 Jsp로 응답 생성
